@@ -1,0 +1,80 @@
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+#navbar {
+  background-color: #b7d1e4;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+}
+
+#educatie {
+}
+
+#compdigitale {
+  color: #212529;
+  background-color: rgba(117,118,120,0.27);
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#competente {
+}
+
+@media (min-width: 300px) {
+  #descriere {
+    color: #212529;
+    background-color: rgba(117,118,120,0.27);
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+#educ {
+  background-color: rgba(117,118,120,0.27);
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("../../assets/img/Fundal.jpg");
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.9);
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0,0,0,.5);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,0,0,.5);
+}
+
